@@ -96,8 +96,7 @@
 		$.supersized({
 			slides  :  	
 			[ 
-				{	image : 'http://placehold.it/1600x1063' } ,
-				{	image : 'http://placehold.it/1600x1063' }
+				{	image : './images/hero.jpg' }
 			]
 		});
 	});
