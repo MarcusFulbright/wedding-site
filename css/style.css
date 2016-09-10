@@ -241,57 +241,20 @@ a:focus{
 /* 01-3 Photo Divider */
 /* ----------------------- */
 .photo_divider{
-	height:375px;
+	height:125px;
 	width:100%;
 	background-size:cover;
 	background-attachment:fixed;
 	background-position:center center;
 	background-repeat:no-repeat;
 	margin-top:140px;
+	background-image:url(http://p1.pichost.me/i/58/1818170.jpg)
 }
 
 .photo_divider_ie11{
 	background-attachment:scroll !important;
 }
 
-#photo_divider1{
-	background-image:url(http://placehold.it/1366x804);
-}
-
-#photo_divider2{
-	background-image:url(http://placehold.it/1366x804);
-	background-position:top center;
-}
-
-#photo_divider3{
-	background-image:url(http://placehold.it/1366x804);
-	background-position:top center;
-}
-
-#photo_divider4{
-	background-image:url(http://placehold.it/1366x804);
-}
-
-#photo_divider5{
-	background-image:url(http://placehold.it/1366x804);
-}
-
-#photo_divider6{
-	background-image:url(http://placehold.it/1366x804);
-	background-position:bottom center;
-}
-
-#photo_divider7{
-	background-image:url(http://placehold.it/1366x804);
-}
-
-#photo_divider8{
-	background-image:url(http://placehold.it/1366x804);
-}
-
-#photo_divider9{
-	background-image:url(http://placehold.it/1366x804);
-}
 
 /* 01-4 Button */
 /* ----------------------- */
