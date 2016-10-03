@@ -438,46 +438,7 @@
 			return false;				
 		});
 	});
-	
-	// Gmap
-	//==================================================================================
-   	jQuery(document).ready(function($) {
-        $("#location_map").gMap({
-             maptype: google.maps.MapTypeId.ROADMAP, 
-             zoom: 14, 
-             markers: 
-			 	[
-			 		{
-                 		latitude: -33.898361, 
-                 		longitude: 151.175290, 
-                 		html: "<strong>Manalia Tower</strong>", 
-                		popup: true,               
-					},
-					{
-                		latitude: -33.905485, 
-                 		longitude: 151.169131, 
-                 		html: "<strong>Comfort Inn</strong>", 
-                 		popup: true,               
-                    } 
-                ], 
-             panControl: true, 
-             zoomControl: true, 
-             mapTypeControl: true, 
-             scaleControl: true, 
-             streetViewControl: true, 
-             scrollwheel: false, 
-             styles: [ { "stylers": [ { "hue": "#00c0b6" }, { "gamma": 1 }, { "saturation": -50 } ] } ], 
-             onComplete: function() {
-                 // Resize and re-center the map on window resize event
-                 var gmap = $("#location_map").data('gmap').gmap;
-                 window.onresize = function(){
-                     google.maps.event.trigger(gmap, 'resize');
-                     $("#location_map").gMap('fixAfterResize');
-                 };
-            }
-        });
-    });
-	
+
 	// Fix Photo Divider on Chrome on Retina Display
 	//==================================================================================
 	var is_chrome = navigator.userAgent.toLowerCase().indexOf('chrome') > -1;
